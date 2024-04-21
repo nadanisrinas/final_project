@@ -1,0 +1,1395 @@
+[2024-04-21T00:02:34.903+0000] {manager.py:469} INFO - Processing files using up to 2 processes at a time 
+[2024-04-21T00:02:34.905+0000] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2024-04-21T00:02:34.908+0000] {manager.py:471} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2024-04-21T00:02:34.911+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-04-21T00:02:49.678+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2024-04-21T00:02:50.138+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/nft_etl.py                                                                                     0           0
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py2-objarr.npz    159  0.13s             0           0
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py3-objarr.npz    156  0.19s             0           0
+================================================================================
+[2024-04-21T00:03:20.704+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py3-objarr.npz    171  0.07s             0           0  0.27s           2024-04-21T00:02:50
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py2-objarr.npz    174  0.01s             0           0  0.18s           2024-04-21T00:02:50
+/opt/airflow/dags/nft_etl.py                                                                                     0           1  0.09s           2024-04-21T00:02:50
+================================================================================
+[2024-04-21T00:03:51.356+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py3-objarr.npz    186  0.04s             0           0  0.33s           2024-04-21T00:03:20
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py2-objarr.npz    187  0.00s             0           0  0.28s           2024-04-21T00:03:20
+/opt/airflow/dags/nft_etl.py                                                                                     0           1  0.09s           2024-04-21T00:03:21
+================================================================================
+[2024-04-21T00:04:21.856+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py3-objarr.npz    201  0.04s             0           0  0.13s           2024-04-21T00:03:51
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py2-objarr.npz    204  0.01s             0           0  0.11s           2024-04-21T00:03:51
+/opt/airflow/dags/nft_etl.py                                                                                     0           1  0.06s           2024-04-21T00:03:51
+================================================================================
+[2024-04-21T00:04:52.582+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py3-objarr.npz    216  0.09s             0           0  0.29s           2024-04-21T00:04:22
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py2-objarr.npz    219  0.02s             0           0  0.27s           2024-04-21T00:04:22
+/opt/airflow/dags/nft_etl.py                                                                                     0           1  0.07s           2024-04-21T00:04:22
+================================================================================
+[2024-04-21T00:05:23.065+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py3-objarr.npz    231  0.05s             0           0  0.18s           2024-04-21T00:04:52
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py2-objarr.npz    234  0.01s             0           0  0.09s           2024-04-21T00:04:52
+/opt/airflow/dags/nft_etl.py                                                                                     0           1  0.07s           2024-04-21T00:04:52
+================================================================================
+[2024-04-21T00:05:53.822+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py3-objarr.npz    246  0.08s             0           0  0.31s           2024-04-21T00:05:23
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py2-objarr.npz    249  0.01s             0           0  0.09s           2024-04-21T00:05:23
+/opt/airflow/dags/nft_etl.py                                                                                     0           1  0.08s           2024-04-21T00:05:23
+================================================================================
+[2024-04-21T00:06:24.814+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py3-objarr.npz    261  0.07s             0           0  0.44s           2024-04-21T00:05:54
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py2-objarr.npz    264  0.01s             0           0  0.39s           2024-04-21T00:05:54
+/opt/airflow/dags/nft_etl.py                                                                                     0           1  0.08s           2024-04-21T00:05:54
+================================================================================
+[2024-04-21T00:06:55.310+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py3-objarr.npz    276  0.04s             0           0  0.14s           2024-04-21T00:06:24
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py2-objarr.npz    279  0.00s             0           0  0.11s           2024-04-21T00:06:24
+/opt/airflow/dags/nft_etl.py                                                                                     0           1  0.09s           2024-04-21T00:06:24
+================================================================================
+[2024-04-21T00:07:25.808+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py3-objarr.npz    291  0.04s             0           0  0.11s           2024-04-21T00:06:55
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py2-objarr.npz    294  0.01s             0           0  0.09s           2024-04-21T00:06:55
+/opt/airflow/dags/nft_etl.py                                                                                     0           1  0.07s           2024-04-21T00:06:55
+================================================================================
+[2024-04-21T00:07:35.012+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-04-21T00:07:41.056+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2024-04-21T00:07:56.352+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py3-objarr.npz    306  0.05s             0           0  0.14s           2024-04-21T00:07:25
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py2-objarr.npz    309  0.00s             0           0  0.09s           2024-04-21T00:07:25
+/opt/airflow/dags/nft_etl.py                                                                                     0           1  0.06s           2024-04-21T00:07:25
+================================================================================
+[2024-04-21T00:08:27.186+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py3-objarr.npz    326  0.07s             0           0  0.31s           2024-04-21T00:07:56
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py2-objarr.npz    329  0.02s             0           0  0.28s           2024-04-21T00:07:56
+/opt/airflow/dags/nft_etl.py                                                                                     0           1  0.12s           2024-04-21T00:08:06
+================================================================================
+[2024-04-21T00:08:57.972+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py3-objarr.npz    341  0.05s             0           0  0.33s           2024-04-21T00:08:27
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py2-objarr.npz    344  0.01s             0           0  0.30s           2024-04-21T00:08:27
+/opt/airflow/dags/nft_etl.py                                                                                     0           1  0.10s           2024-04-21T00:08:37
+================================================================================
+[2024-04-21T00:09:28.293+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py3-objarr.npz                           0           0  0.93s           2024-04-21T00:08:58
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py2-objarr.npz                           0           0  0.88s           2024-04-21T00:08:58
+/opt/airflow/dags/nft_etl.py                                                                                     0           1  0.11s           2024-04-21T00:09:08
+================================================================================
+[2024-04-21T00:09:56.581+0000] {manager.py:469} INFO - Processing files using up to 2 processes at a time 
+[2024-04-21T00:09:56.585+0000] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2024-04-21T00:09:56.592+0000] {manager.py:471} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2024-04-21T00:09:56.599+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-04-21T00:10:09.142+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2024-04-21T00:10:09.390+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/nft_etl.py                                                              156  0.09s             0           0
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py2-objarr.npz                           0           0
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py3-objarr.npz    159  0.06s             0           0
+================================================================================
+[2024-04-21T00:10:39.895+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nft_etl.py                                                              171  0.05s             0           1  0.17s           2024-04-21T00:10:09
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py3-objarr.npz    174  0.00s             0           0  0.12s           2024-04-21T00:10:09
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py2-objarr.npz                           0           0  0.07s           2024-04-21T00:10:09
+================================================================================
+[2024-04-21T00:11:10.507+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nft_etl.py                                                              186  0.08s             0           1  0.15s           2024-04-21T00:10:39
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py3-objarr.npz    189  0.01s             0           0  0.09s           2024-04-21T00:10:39
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py2-objarr.npz                           0           0  0.05s           2024-04-21T00:10:40
+================================================================================
+[2024-04-21T00:11:41.184+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nft_etl.py                                                              201  0.14s             0           1  0.22s           2024-04-21T00:11:10
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py3-objarr.npz    204  0.01s             0           0  0.13s           2024-04-21T00:11:10
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py2-objarr.npz                           0           0  0.06s           2024-04-21T00:11:10
+================================================================================
+[2024-04-21T00:12:11.995+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nft_etl.py                                                              216  0.04s             0           1  0.49s           2024-04-21T00:11:41
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py3-objarr.npz    219  0.01s             0           0  0.34s           2024-04-21T00:11:41
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py2-objarr.npz                           0           0  0.06s           2024-04-21T00:11:41
+================================================================================
+[2024-04-21T00:12:45.881+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nft_etl.py                                                              231  0.39s             0           1  0.22s           2024-04-21T00:12:12
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py2-objarr.npz                           0           0  0.12s           2024-04-21T00:12:12
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py3-objarr.npz    234  0.07s             0           0  0.11s           2024-04-21T00:12:12
+================================================================================
+[2024-04-21T00:13:16.033+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nft_etl.py                                                                                     0           1  3.95s           2024-04-21T00:12:49
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py3-objarr.npz                           0           0  3.68s           2024-04-21T00:12:49
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py2-objarr.npz                           0           0  0.91s           2024-04-21T00:12:50
+================================================================================
+[2024-04-21T00:13:46.877+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py2-objarr.npz                           0           0  0.18s           2024-04-21T00:13:21
+/opt/airflow/dags/nft_etl.py                                                                                     0           1  0.13s           2024-04-21T00:13:20
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py3-objarr.npz                           0           0  0.10s           2024-04-21T00:13:20
+================================================================================
+[2024-04-21T00:14:17.460+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nft_etl.py                                                                                     0           1  0.20s           2024-04-21T00:13:51
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py3-objarr.npz                           0           0  0.13s           2024-04-21T00:13:51
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py2-objarr.npz                           0           0  0.06s           2024-04-21T00:13:52
+================================================================================
+[2024-04-21T00:14:48.094+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nft_etl.py                                                                                     0           1  0.18s           2024-04-21T00:14:21
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py3-objarr.npz                           0           0  0.11s           2024-04-21T00:14:21
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py2-objarr.npz                           0           0  0.07s           2024-04-21T00:14:22
+================================================================================
+[2024-04-21T00:14:57.469+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-04-21T00:15:07.524+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2024-04-21T00:15:18.159+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nft_etl.py                                                                                     0           1  0.18s           2024-04-21T00:14:52
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py3-objarr.npz                           0           0  0.11s           2024-04-21T00:14:52
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py2-objarr.npz                           0           0  0.07s           2024-04-21T00:14:53
+================================================================================
+[2024-04-21T00:15:48.578+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nft_etl.py                                                                                     0           1  2.45s           2024-04-21T00:15:25
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py3-objarr.npz                           0           0  1.04s           2024-04-21T00:15:25
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py2-objarr.npz                           0           0  0.70s           2024-04-21T00:15:26
+================================================================================
+[2024-04-21T00:16:19.382+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nft_etl.py                                                                                     0           1  0.18s           2024-04-21T00:16:12
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py3-objarr.npz                           0           0  0.10s           2024-04-21T00:15:55
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py2-objarr.npz                           0           0  0.06s           2024-04-21T00:15:56
+================================================================================
+[2024-04-21T00:16:49.956+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nft_etl.py                                                                                     0           1  0.16s           2024-04-21T00:16:40
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py3-objarr.npz                           0           0  0.14s           2024-04-21T00:16:26
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py2-objarr.npz                           0           0  0.06s           2024-04-21T00:16:27
+================================================================================
+[2024-04-21T00:17:20.780+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nft_etl.py                                                                                     0           1  0.20s           2024-04-21T00:17:13
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py3-objarr.npz                           0           0  0.09s           2024-04-21T00:16:57
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py2-objarr.npz                           0           0  0.07s           2024-04-21T00:16:58
+================================================================================
+[2024-04-21T00:17:51.519+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nft_etl.py                                                                                     0           1  0.18s           2024-04-21T00:17:32
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py3-objarr.npz                           0           0  0.13s           2024-04-21T00:17:28
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py2-objarr.npz                           0           0  0.08s           2024-04-21T00:17:29
+================================================================================
+[2024-04-21T00:18:22.356+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py3-objarr.npz                           0           0  0.15s           2024-04-21T00:17:58
+/opt/airflow/dags/nft_etl.py                                                                                     0           1  0.14s           2024-04-21T00:18:03
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py2-objarr.npz                           0           0  0.09s           2024-04-21T00:17:59
+================================================================================
+[2024-04-21T00:18:52.994+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py2-objarr.npz                           0           0  2.29s           2024-04-21T00:18:32
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py3-objarr.npz                           0           0  0.66s           2024-04-21T00:18:30
+/opt/airflow/dags/nft_etl.py                                                                                     0           1  0.36s           2024-04-21T00:18:33
+================================================================================
+[2024-04-21T00:19:23.703+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py3-objarr.npz                           0           0  0.18s           2024-04-21T00:19:01
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py2-objarr.npz                           0           0  0.14s           2024-04-21T00:19:03
+/opt/airflow/dags/nft_etl.py                                                                                     0           1  0.11s           2024-04-21T00:19:04
+================================================================================
+[2024-04-21T00:19:54.176+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py2-objarr.npz                           0           0  0.89s           2024-04-21T00:19:34
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py3-objarr.npz                           0           0  0.18s           2024-04-21T00:19:32
+/opt/airflow/dags/nft_etl.py                                                                                     0           1  0.17s           2024-04-21T00:19:35
+================================================================================
+[2024-04-21T00:19:58.249+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-04-21T00:20:04.015+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2024-04-21T00:20:24.452+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py3-objarr.npz                           0           0  0.12s           2024-04-21T00:20:04
+/opt/airflow/dags/nft_etl.py                                                                                     0           1  0.10s           2024-04-21T00:20:05
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py2-objarr.npz                           0           0  0.08s           2024-04-21T00:20:05
+================================================================================
+[2024-04-21T00:20:55.045+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py3-objarr.npz                           0           0  0.12s           2024-04-21T00:20:34
+/opt/airflow/dags/nft_etl.py                                                                                     0           1  0.12s           2024-04-21T00:20:35
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py2-objarr.npz                           0           0  0.08s           2024-04-21T00:20:35
+================================================================================
+[2024-04-21T00:21:25.614+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py3-objarr.npz                           0           0  0.12s           2024-04-21T00:21:05
+/opt/airflow/dags/nft_etl.py                                                                                     0           1  0.12s           2024-04-21T00:21:06
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py2-objarr.npz                           0           0  0.09s           2024-04-21T00:21:06
+================================================================================
+[2024-04-21T00:21:56.234+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py3-objarr.npz                           0           0  0.13s           2024-04-21T00:21:35
+/opt/airflow/dags/nft_etl.py                                                                                     0           1  0.10s           2024-04-21T00:21:37
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py2-objarr.npz                           0           0  0.07s           2024-04-21T00:21:37
+================================================================================
+[2024-04-21T00:22:26.901+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nft_etl.py                                                                                     0           1  0.14s           2024-04-21T00:22:07
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py3-objarr.npz                           0           0  0.12s           2024-04-21T00:22:06
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py2-objarr.npz                           0           0  0.09s           2024-04-21T00:22:07
+================================================================================
+[2024-04-21T00:22:57.526+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py3-objarr.npz                           0           0  0.14s           2024-04-21T00:22:37
+/opt/airflow/dags/nft_etl.py                                                                                     0           1  0.11s           2024-04-21T00:22:38
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py2-objarr.npz                           0           0  0.08s           2024-04-21T00:22:38
+================================================================================
+[2024-04-21T00:23:28.168+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nft_etl.py                                                                                     0           1  0.21s           2024-04-21T00:23:05
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py2-objarr.npz                           0           0  0.07s           2024-04-21T00:23:08
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py3-objarr.npz                           0           0  0.07s           2024-04-21T00:23:07
+================================================================================
+[2024-04-21T00:23:59.012+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nft_etl.py                                                                                     0           1  0.22s           2024-04-21T00:23:36
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py3-objarr.npz                           0           0  0.21s           2024-04-21T00:23:38
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py2-objarr.npz                           0           0  0.12s           2024-04-21T00:23:39
+================================================================================
+[2024-04-21T00:24:27.481+0000] {manager.py:469} INFO - Processing files using up to 2 processes at a time 
+[2024-04-21T00:24:27.485+0000] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2024-04-21T00:24:27.493+0000] {manager.py:471} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2024-04-21T00:24:27.500+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-04-21T00:24:42.008+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2024-04-21T00:24:42.519+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/nft_etl.py                                                              157  0.22s             0           0
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py2-objarr.npz                           0           0
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py3-objarr.npz    160  0.17s             0           0
+================================================================================
+[2024-04-21T00:25:22.646+0000] {manager.py:469} INFO - Processing files using up to 2 processes at a time 
+[2024-04-21T00:25:22.649+0000] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2024-04-21T00:25:22.655+0000] {manager.py:471} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2024-04-21T00:25:22.659+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-04-21T00:25:34.933+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2024-04-21T00:25:35.236+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/nft_etl.py                                                              156  0.14s             0           0
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py2-objarr.npz                           0           0
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py3-objarr.npz    159  0.05s             0           0
+================================================================================
+[2024-04-21T00:26:05.764+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nft_etl.py                                                              171  0.04s             0           1  0.20s           2024-04-21T00:25:35
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py3-objarr.npz    174  0.00s             0           0  0.09s           2024-04-21T00:25:35
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py2-objarr.npz                           0           0  0.08s           2024-04-21T00:25:35
+================================================================================
+[2024-04-21T00:26:36.250+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nft_etl.py                                                              186  0.04s             0           1  0.14s           2024-04-21T00:26:05
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py3-objarr.npz    189  0.01s             0           0  0.09s           2024-04-21T00:26:05
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py2-objarr.npz                           0           0  0.05s           2024-04-21T00:26:05
+================================================================================
+[2024-04-21T00:27:06.804+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nft_etl.py                                                              201  0.06s             0           1  0.14s           2024-04-21T00:26:36
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py3-objarr.npz    204  0.01s             0           0  0.09s           2024-04-21T00:26:36
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py2-objarr.npz                           0           0  0.05s           2024-04-21T00:26:36
+================================================================================
+[2024-04-21T00:27:37.396+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nft_etl.py                                                              216  0.07s             0           1  0.17s           2024-04-21T00:27:06
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py3-objarr.npz    219  0.01s             0           0  0.11s           2024-04-21T00:27:06
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py2-objarr.npz                           0           0  0.06s           2024-04-21T00:27:06
+================================================================================
+[2024-04-21T00:28:08.174+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nft_etl.py                                                              231  0.03s             0           1  0.18s           2024-04-21T00:27:37
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py3-objarr.npz    234  0.00s             0           0  0.11s           2024-04-21T00:27:37
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py2-objarr.npz                           0           0  0.05s           2024-04-21T00:27:37
+================================================================================
+[2024-04-21T00:28:38.963+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nft_etl.py                                                              246  0.09s             0           1  0.13s           2024-04-21T00:28:08
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py3-objarr.npz    249  0.01s             0           0  0.09s           2024-04-21T00:28:08
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py2-objarr.npz                           0           0  0.05s           2024-04-21T00:28:08
+================================================================================
+[2024-04-21T00:55:11.479+0000] {manager.py:469} INFO - Processing files using up to 2 processes at a time 
+[2024-04-21T00:55:11.484+0000] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2024-04-21T00:55:11.489+0000] {manager.py:471} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2024-04-21T00:55:11.494+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-04-21T00:55:25.620+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2024-04-21T00:55:26.106+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/nft_etl.py                                                              157  0.15s             0           0
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py2-objarr.npz                           0           0
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py3-objarr.npz    160  0.10s             0           0
+================================================================================
+[2024-04-21T00:55:56.799+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nft_etl.py                                                              172  0.05s             0           1  0.25s           2024-04-21T00:55:26
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py3-objarr.npz    175  0.01s             0           0  0.18s           2024-04-21T00:55:26
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py2-objarr.npz                           0           0  0.07s           2024-04-21T00:55:26
+================================================================================
+[2024-04-21T00:56:27.562+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nft_etl.py                                                              187  0.08s             0           1  0.26s           2024-04-21T00:55:56
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py3-objarr.npz    190  0.01s             0           0  0.19s           2024-04-21T00:55:56
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py2-objarr.npz                           0           0  0.05s           2024-04-21T00:55:57
+================================================================================
+[2024-04-21T00:56:58.312+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nft_etl.py                                                                                     0           1  0.16s           2024-04-21T00:56:53
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py3-objarr.npz    212  0.03s             0           0  0.11s           2024-04-21T00:56:27
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py2-objarr.npz    215  0.00s             0           0  0.06s           2024-04-21T00:56:27
+================================================================================
+[2024-04-21T00:57:28.941+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nft_etl.py                                                                                     0           1  0.22s           2024-04-21T00:57:23
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py3-objarr.npz    227  0.03s             0           0  0.09s           2024-04-21T00:56:58
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py2-objarr.npz    230  0.00s             0           0  0.07s           2024-04-21T00:56:58
+================================================================================
+[2024-04-21T00:57:58.994+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nft_etl.py                                                                                     0           1  0.19s           2024-04-21T00:57:54
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py3-objarr.npz                           0           0  0.12s           2024-04-21T00:57:29
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py2-objarr.npz                           0           0  0.11s           2024-04-21T00:57:29
+================================================================================
+[2024-04-21T00:58:29.450+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nft_etl.py                                                                                     0           1  0.13s           2024-04-21T00:58:25
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py2-objarr.npz                           0           0  0.10s           2024-04-21T00:58:00
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py3-objarr.npz                           0           0  0.09s           2024-04-21T00:58:00
+================================================================================
+[2024-04-21T00:58:59.493+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nft_etl.py                                                                                     0           1  0.39s           2024-04-21T00:58:56
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py3-objarr.npz                           0           0  0.11s           2024-04-21T00:58:30
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py2-objarr.npz                           0           0  0.08s           2024-04-21T00:58:30
+================================================================================
+[2024-04-21T00:59:30.319+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nft_etl.py                                                                                     0           1  0.14s           2024-04-21T00:59:27
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py3-objarr.npz                           0           0  0.10s           2024-04-21T00:59:00
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py2-objarr.npz                           0           0  0.07s           2024-04-21T00:59:00
+================================================================================
+[2024-04-21T01:00:00.887+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nft_etl.py                                                                                     0           1  0.11s           2024-04-21T00:59:32
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py3-objarr.npz                           0           0  0.11s           2024-04-21T00:59:31
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py2-objarr.npz                           0           0  0.07s           2024-04-21T00:59:31
+================================================================================
+[2024-04-21T01:00:12.264+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-04-21T01:00:18.098+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2024-04-21T01:00:31.387+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nft_etl.py                                                                                     0           1  0.19s           2024-04-21T01:00:23
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py3-objarr.npz                           0           0  0.16s           2024-04-21T01:00:02
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py2-objarr.npz                           0           0  0.10s           2024-04-21T01:00:02
+================================================================================
+[2024-04-21T01:01:02.280+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py3-objarr.npz                           0           0  0.41s           2024-04-21T01:00:32
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py2-objarr.npz                           0           0  0.33s           2024-04-21T01:00:32
+/opt/airflow/dags/nft_etl.py                                                                                     0           1  0.17s           2024-04-21T01:00:50
+================================================================================
+[2024-04-21T01:01:33.122+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nft_etl.py                                                                                     0           1  0.17s           2024-04-21T01:01:20
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py3-objarr.npz                           0           0  0.15s           2024-04-21T01:01:03
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py2-objarr.npz                           0           0  0.11s           2024-04-21T01:01:03
+================================================================================
+[2024-04-21T01:02:04.074+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py2-objarr.npz                           0           0  0.54s           2024-04-21T01:01:34
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py3-objarr.npz                           0           0  0.53s           2024-04-21T01:01:34
+/opt/airflow/dags/nft_etl.py                                                                                     0           1  0.11s           2024-04-21T01:01:52
+================================================================================
+[2024-04-21T01:02:34.699+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nft_etl.py                                                                                     0           1  0.23s           2024-04-21T01:02:22
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py3-objarr.npz                           0           0  0.11s           2024-04-21T01:02:05
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py2-objarr.npz                           0           0  0.08s           2024-04-21T01:02:05
+================================================================================
+[2024-04-21T01:03:05.144+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nft_etl.py                                                                                     0           1  2.74s           2024-04-21T01:02:55
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py3-objarr.npz                           0           0  0.18s           2024-04-21T01:02:35
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py2-objarr.npz                           0           0  0.12s           2024-04-21T01:02:35
+================================================================================
+[2024-04-21T01:03:34.929+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nft_etl.py                                                                                     0           1  0.51s           2024-04-21T01:03:26
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py3-objarr.npz                           0           0  0.22s           2024-04-21T01:03:06
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py2-objarr.npz                           0           0  0.14s           2024-04-21T01:03:06
+================================================================================
+[2024-04-21T01:04:06.345+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py3-objarr.npz                           0           0  0.27s           2024-04-21T01:03:37
+/opt/airflow/dags/nft_etl.py                                                                                     0           1  0.26s           2024-04-21T01:03:57
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py2-objarr.npz                           0           0  0.19s           2024-04-21T01:03:37
+================================================================================
+[2024-04-21T01:04:36.530+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py3-objarr.npz                           0           0  0.19s           2024-04-21T01:04:07
+/opt/airflow/dags/nft_etl.py                                                                                     0           1  0.16s           2024-04-21T01:04:28
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py2-objarr.npz                           0           0  0.13s           2024-04-21T01:04:07
+================================================================================
+[2024-04-21T01:05:06.959+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py3-objarr.npz                           0           0  0.41s           2024-04-21T01:04:38
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py2-objarr.npz                           0           0  0.28s           2024-04-21T01:04:38
+/opt/airflow/dags/nft_etl.py                                                                                     0           1  0.18s           2024-04-21T01:04:58
+================================================================================
+[2024-04-21T01:05:12.503+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-04-21T01:05:20.176+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2024-04-21T01:05:37.497+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py3-objarr.npz                           0           0  0.32s           2024-04-21T01:05:09
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py2-objarr.npz                           0           0  0.23s           2024-04-21T01:05:09
+/opt/airflow/dags/nft_etl.py                                                                                     0           1  0.15s           2024-04-21T01:05:29
+================================================================================
+[2024-04-21T01:06:08.041+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py3-objarr.npz                           0           0  0.31s           2024-04-21T01:05:39
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py2-objarr.npz                           0           0  0.24s           2024-04-21T01:05:39
+/opt/airflow/dags/nft_etl.py                                                                                     0           1  0.13s           2024-04-21T01:06:00
+================================================================================
+[2024-04-21T01:06:38.679+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py3-objarr.npz                           0           0  0.21s           2024-04-21T01:06:10
+/opt/airflow/dags/nft_etl.py                                                                                     0           1  0.16s           2024-04-21T01:06:30
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py2-objarr.npz                           0           0  0.14s           2024-04-21T01:06:10
+================================================================================
+[2024-04-21T01:07:09.397+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nft_etl.py                                                                                     0           1  0.15s           2024-04-21T01:07:01
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py3-objarr.npz                           0           0  0.15s           2024-04-21T01:06:40
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py2-objarr.npz                           0           0  0.09s           2024-04-21T01:06:40
+================================================================================
+[2024-04-21T01:07:40.004+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py3-objarr.npz                           0           0  0.15s           2024-04-21T01:07:11
+/opt/airflow/dags/nft_etl.py                                                                                     0           1  0.12s           2024-04-21T01:07:31
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py2-objarr.npz                           0           0  0.11s           2024-04-21T01:07:11
+================================================================================
+[2024-04-21T01:08:10.585+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nft_etl.py                                                                                     0           1  0.16s           2024-04-21T01:08:02
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py3-objarr.npz                           0           0  0.13s           2024-04-21T01:07:42
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py2-objarr.npz                           0           0  0.09s           2024-04-21T01:07:42
+================================================================================
+[2024-04-21T01:08:41.186+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py3-objarr.npz                           0           0  0.14s           2024-04-21T01:08:12
+/opt/airflow/dags/nft_etl.py                                                                                     0           1  0.14s           2024-04-21T01:08:33
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py2-objarr.npz                           0           0  0.10s           2024-04-21T01:08:12
+================================================================================
+[2024-04-21T01:09:11.700+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py3-objarr.npz                           0           0  0.15s           2024-04-21T01:08:43
+/opt/airflow/dags/nft_etl.py                                                                                     0           1  0.14s           2024-04-21T01:09:03
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py2-objarr.npz                           0           0  0.10s           2024-04-21T01:08:43
+================================================================================
+[2024-04-21T01:09:42.221+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py3-objarr.npz                           0           0  0.16s           2024-04-21T01:09:13
+/opt/airflow/dags/nft_etl.py                                                                                     0           1  0.14s           2024-04-21T01:09:34
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py2-objarr.npz                           0           0  0.11s           2024-04-21T01:09:13
+================================================================================
+[2024-04-21T01:10:12.677+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-04-21T01:10:18.647+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2024-04-21T01:10:18.723+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py3-objarr.npz    607  0.03s             0           0  0.14s           2024-04-21T01:09:44
+/opt/airflow/dags/nft_etl.py                                                                                     0           1  0.12s           2024-04-21T01:10:04
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py2-objarr.npz    610  0.01s             0           0  0.11s           2024-04-21T01:09:44
+================================================================================
+[2024-04-21T01:10:49.196+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py3-objarr.npz    622  0.05s             0           0  0.11s           2024-04-21T01:10:18
+/opt/airflow/dags/nft_etl.py                                                                                     0           1  0.10s           2024-04-21T01:10:35
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py2-objarr.npz    625  0.01s             0           0  0.08s           2024-04-21T01:10:18
+================================================================================
+[2024-04-21T01:11:19.690+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py3-objarr.npz    637  0.04s             0           0  0.12s           2024-04-21T01:10:49
+/opt/airflow/dags/nft_etl.py                                                                                     0           1  0.12s           2024-04-21T01:11:05
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py2-objarr.npz    640  0.00s             0           0  0.09s           2024-04-21T01:10:49
+================================================================================
+[2024-04-21T01:11:50.152+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py3-objarr.npz    652  0.05s             0           0  0.13s           2024-04-21T01:11:19
+/opt/airflow/dags/nft_etl.py                                                                                     0           1  0.11s           2024-04-21T01:11:36
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py2-objarr.npz    655  0.01s             0           0  0.09s           2024-04-21T01:11:19
+================================================================================
+[2024-04-21T01:12:20.704+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py3-objarr.npz    667  0.04s             0           0  0.16s           2024-04-21T01:11:50
+/opt/airflow/dags/nft_etl.py                                                                                     0           1  0.13s           2024-04-21T01:12:06
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py2-objarr.npz    670  0.01s             0           0  0.11s           2024-04-21T01:11:50
+================================================================================
+[2024-04-21T01:12:51.145+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py3-objarr.npz    682  0.04s             0           0  0.13s           2024-04-21T01:12:20
+/opt/airflow/dags/nft_etl.py                                                                                     0           1  0.12s           2024-04-21T01:12:37
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py2-objarr.npz    685  0.01s             0           0  0.10s           2024-04-21T01:12:20
+================================================================================
+[2024-04-21T01:13:21.608+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nft_etl.py                                                                                     0           1  0.14s           2024-04-21T01:13:07
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py3-objarr.npz    697  0.06s             0           0  0.12s           2024-04-21T01:12:51
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py2-objarr.npz    700  0.01s             0           0  0.09s           2024-04-21T01:12:51
+================================================================================
+[2024-04-21T01:13:52.067+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py3-objarr.npz    712  0.05s             0           0  0.14s           2024-04-21T01:13:21
+/opt/airflow/dags/nft_etl.py                                                                                     0           1  0.10s           2024-04-21T01:13:37
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py2-objarr.npz    715  0.00s             0           0  0.09s           2024-04-21T01:13:21
+================================================================================
+[2024-04-21T01:14:22.540+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py3-objarr.npz    727  0.03s             0           0  0.15s           2024-04-21T01:13:52
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py2-objarr.npz    730  0.00s             0           0  0.11s           2024-04-21T01:13:52
+/opt/airflow/dags/nft_etl.py                                                                                     0           1  0.10s           2024-04-21T01:14:08
+================================================================================
+[2024-04-21T01:14:52.984+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py3-objarr.npz    742  0.03s             0           0  0.12s           2024-04-21T01:14:22
+/opt/airflow/dags/nft_etl.py                                                                                     0           1  0.07s           2024-04-21T01:14:38
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py2-objarr.npz    745  0.00s             0           0  0.06s           2024-04-21T01:14:22
+================================================================================
+[2024-04-21T01:15:13.226+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-04-21T01:15:18.570+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2024-04-21T01:15:23.675+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py3-objarr.npz    757  0.02s             0           0  0.10s           2024-04-21T01:14:53
+/opt/airflow/dags/nft_etl.py                                                                                     0           1  0.08s           2024-04-21T01:15:09
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py2-objarr.npz    760  0.00s             0           0  0.07s           2024-04-21T01:14:53
+================================================================================
+[2024-04-21T01:15:54.118+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nft_etl.py                                                                                     0           1  0.10s           2024-04-21T01:15:40
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py3-objarr.npz    772  0.04s             0           0  0.07s           2024-04-21T01:15:23
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py2-objarr.npz    775  0.01s             0           0  0.06s           2024-04-21T01:15:23
+================================================================================
+[2024-04-21T01:16:24.164+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nft_etl.py                                                                                     0           1  0.68s           2024-04-21T01:16:11
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py3-objarr.npz                           0           0  0.10s           2024-04-21T01:15:54
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py2-objarr.npz                           0           0  0.09s           2024-04-21T01:15:54
+================================================================================
+[2024-04-21T01:16:54.206+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nft_etl.py                                                                                     0           1  0.24s           2024-04-21T01:16:42
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py3-objarr.npz                           0           0  0.09s           2024-04-21T01:16:24
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py2-objarr.npz                           0           0  0.08s           2024-04-21T01:16:24
+================================================================================
+[2024-04-21T01:17:24.632+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nft_etl.py                                                                                     0           1  0.52s           2024-04-21T01:17:12
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py3-objarr.npz                           0           0  0.18s           2024-04-21T01:16:55
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py2-objarr.npz                           0           0  0.11s           2024-04-21T01:16:55
+================================================================================
+[2024-04-21T01:17:55.179+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nft_etl.py                                                                                     0           1  0.15s           2024-04-21T01:17:43
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py3-objarr.npz                           0           0  0.13s           2024-04-21T01:17:25
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py2-objarr.npz                           0           0  0.10s           2024-04-21T01:17:25
+================================================================================
+[2024-04-21T01:18:26.001+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nft_etl.py                                                                                     0           1  0.49s           2024-04-21T01:18:14
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py3-objarr.npz                           0           0  0.17s           2024-04-21T01:17:56
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py2-objarr.npz                           0           0  0.14s           2024-04-21T01:17:56
+================================================================================
+[2024-04-21T01:18:56.609+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nft_etl.py                                                                                     0           1  0.20s           2024-04-21T01:18:44
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py3-objarr.npz                           0           0  0.16s           2024-04-21T01:18:27
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py2-objarr.npz                           0           0  0.11s           2024-04-21T01:18:27
+================================================================================
+[2024-04-21T01:19:27.171+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nft_etl.py                                                                                     0           1  0.24s           2024-04-21T01:19:15
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py3-objarr.npz                           0           0  0.18s           2024-04-21T01:18:57
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py2-objarr.npz                           0           0  0.12s           2024-04-21T01:18:57
+================================================================================
+[2024-04-21T01:19:57.842+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py3-objarr.npz                           0           0  0.22s           2024-04-21T01:19:28
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py2-objarr.npz                           0           0  0.15s           2024-04-21T01:19:28
+/opt/airflow/dags/nft_etl.py                                                                                     0           1  0.14s           2024-04-21T01:19:45
+================================================================================
+[2024-04-21T01:20:14.133+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-04-21T01:20:19.569+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2024-04-21T01:20:27.928+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nft_etl.py                                                                                     0           1  0.16s           2024-04-21T01:20:19
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py3-objarr.npz                           0           0  0.15s           2024-04-21T01:19:59
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py2-objarr.npz                           0           0  0.10s           2024-04-21T01:19:59
+================================================================================
+[2024-04-21T01:20:58.672+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py3-objarr.npz                           0           0  1.54s           2024-04-21T01:20:37
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py2-objarr.npz                           0           0  1.16s           2024-04-21T01:20:37
+/opt/airflow/dags/nft_etl.py                                                                                     0           1  0.30s           2024-04-21T01:20:50
+================================================================================
+[2024-04-21T01:21:29.130+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nft_etl.py                                                                                     0           1  0.12s           2024-04-21T01:21:21
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py3-objarr.npz                           0           0  0.08s           2024-04-21T01:21:07
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py2-objarr.npz                           0           0  0.08s           2024-04-21T01:21:07
+================================================================================
+[2024-04-21T01:21:59.732+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py3-objarr.npz                           0           0  0.28s           2024-04-21T01:21:38
+/opt/airflow/dags/nft_etl.py                                                                                     0           1  0.17s           2024-04-21T01:21:51
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py2-objarr.npz                           0           0  0.12s           2024-04-21T01:21:38
+================================================================================
+[2024-04-21T01:22:30.273+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py3-objarr.npz                           0           0  0.17s           2024-04-21T01:22:09
+/opt/airflow/dags/nft_etl.py                                                                                     0           1  0.16s           2024-04-21T01:22:22
+/opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py2-objarr.npz                           0           0  0.13s           2024-04-21T01:22:09
+================================================================================
+[2024-04-21T01:22:42.941+0000] {manager.py:1129} WARNING - Skipping processing of missing file: /opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py2-objarr.npz
+[2024-04-21T01:22:42.947+0000] {manager.py:1129} WARNING - Skipping processing of missing file: /opt/airflow/dags/venv/lib/python3.9/site-packages/numpy/lib/tests/data/py3-objarr.npz
+[2024-04-21T01:23:00.402+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nft_etl.py                           0           1  0.20s           2024-04-21T01:22:53
+================================================================================
+[2024-04-21T01:23:30.731+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nft_etl.py                           0           1  0.18s           2024-04-21T01:23:23
+================================================================================
+[2024-04-21T01:24:01.231+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nft_etl.py                           0           1  0.18s           2024-04-21T01:23:54
+================================================================================
+[2024-04-21T01:24:31.736+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nft_etl.py                           0           1  0.17s           2024-04-21T01:24:24
+================================================================================
+[2024-04-21T01:25:02.171+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nft_etl.py                           0           1  0.22s           2024-04-21T01:24:55
+================================================================================
+[2024-04-21T01:25:14.300+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-04-21T01:25:14.416+0000] {manager.py:741} INFO - There are 1 files in /opt/airflow/dags
+[2024-04-21T01:25:32.202+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nft_etl.py                           0           1  0.46s           2024-04-21T01:25:26
+================================================================================
+[2024-04-21T01:26:02.470+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nft_etl.py                           0           1  0.17s           2024-04-21T01:25:56
+================================================================================
+[2024-04-21T01:26:32.828+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nft_etl.py                           0           1  0.17s           2024-04-21T01:26:26
+================================================================================
+[2024-04-21T01:27:03.264+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nft_etl.py                           0           1  0.16s           2024-04-21T01:26:57
+================================================================================
+[2024-04-21T01:27:33.674+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nft_etl.py                           0           1  0.15s           2024-04-21T01:27:27
+================================================================================
+[2024-04-21T01:28:04.102+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nft_etl.py                           0           1  0.18s           2024-04-21T01:27:44
+================================================================================
+[2024-04-21T01:28:34.566+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nft_etl.py                           0           1  0.18s           2024-04-21T01:28:05
+================================================================================
+[2024-04-21T01:29:04.997+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nft_etl.py                           0           1  0.12s           2024-04-21T01:28:35
+================================================================================
+[2024-04-21T01:29:35.477+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nft_etl.py                           0           1  0.22s           2024-04-21T01:29:06
+================================================================================
+[2024-04-21T01:30:05.930+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nft_etl.py                           0           1  0.12s           2024-04-21T01:29:36
+================================================================================
+[2024-04-21T01:30:15.083+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-04-21T01:30:15.214+0000] {manager.py:741} INFO - There are 1 files in /opt/airflow/dags
+[2024-04-21T01:30:36.037+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nft_etl.py                           0           1  0.50s           2024-04-21T01:30:07
+================================================================================
+[2024-04-21T01:31:06.446+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nft_etl.py                           0           1  0.24s           2024-04-21T01:30:38
+================================================================================
+[2024-04-21T01:31:36.938+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nft_etl.py                           0           1  0.15s           2024-04-21T01:31:08
+================================================================================
+[2024-04-21T01:32:07.399+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nft_etl.py                           0           1  0.18s           2024-04-21T01:31:39
+================================================================================
+[2024-04-21T01:32:37.786+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nft_etl.py                           0           1  0.14s           2024-04-21T01:32:09
+================================================================================
+[2024-04-21T01:33:08.189+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nft_etl.py                           0           1  0.16s           2024-04-21T01:32:39
+================================================================================
+[2024-04-21T01:33:38.645+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nft_etl.py                           0           1  0.24s           2024-04-21T01:33:10
+================================================================================
+[2024-04-21T01:34:09.094+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nft_etl.py                           0           1  0.14s           2024-04-21T01:33:40
+================================================================================
+[2024-04-21T01:34:39.558+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nft_etl.py                           0           1  0.18s           2024-04-21T01:34:11
+================================================================================
+[2024-04-21T01:35:10.061+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nft_etl.py                           0           1  0.17s           2024-04-21T01:34:51
+================================================================================
+[2024-04-21T01:35:15.128+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-04-21T01:35:15.189+0000] {manager.py:741} INFO - There are 1 files in /opt/airflow/dags
+[2024-04-21T01:35:40.572+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nft_etl.py                           0           1  0.14s           2024-04-21T01:35:22
+================================================================================
+[2024-04-21T01:36:11.088+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nft_etl.py                           0           1  0.12s           2024-04-21T01:35:52
+================================================================================
+[2024-04-21T01:36:41.504+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nft_etl.py                           0           1  0.11s           2024-04-21T01:36:23
+================================================================================
+[2024-04-21T01:37:29.699+0000] {manager.py:469} INFO - Processing files using up to 2 processes at a time 
+[2024-04-21T01:37:29.702+0000] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2024-04-21T01:37:29.709+0000] {manager.py:471} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2024-04-21T01:37:29.714+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-04-21T01:37:29.763+0000] {manager.py:741} INFO - There are 1 files in /opt/airflow/dags
+[2024-04-21T01:37:29.900+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                       PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/nft_etl.py    157  0.05s             0           0
+================================================================================
+[2024-04-21T01:38:00.267+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                       PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nft_etl.py    162  0.04s             0           1  0.12s           2024-04-21T01:37:29
+================================================================================
+[2024-04-21T01:38:30.718+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nft_etl.py                           0           1  0.16s           2024-04-21T01:38:05
+================================================================================
+[2024-04-21T01:39:01.069+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nft_etl.py                           0           1  0.21s           2024-04-21T01:38:36
+================================================================================
+[2024-04-21T01:39:31.617+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nft_etl.py                           0           1  0.16s           2024-04-21T01:39:06
+================================================================================
+[2024-04-21T01:40:02.033+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nft_etl.py                           0           1  0.12s           2024-04-21T01:39:36
+================================================================================
+[2024-04-21T01:40:59.886+0000] {manager.py:469} INFO - Processing files using up to 2 processes at a time 
+[2024-04-21T01:40:59.891+0000] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2024-04-21T01:40:59.901+0000] {manager.py:471} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2024-04-21T01:40:59.911+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-04-21T01:40:59.986+0000] {manager.py:741} INFO - There are 1 files in /opt/airflow/dags
+[2024-04-21T01:41:00.125+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                       PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/nft_etl.py    157  0.04s             0           0
+================================================================================
+[2024-04-21T01:41:30.462+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                       PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nft_etl.py    162  0.01s             0           1  0.10s           2024-04-21T01:41:00
+================================================================================
+[2024-04-21T01:42:00.829+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                       PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/nft_etl.py    167  0.02s             0           1  0.14s           2024-04-21T01:41:30
+================================================================================

@@ -12,11 +12,7 @@ docker-build:
 	@echo '__________________________________________________________'
 	@docker network inspect dataeng-network >/dev/null 2>&1 || docker network create dataeng-network
 	@echo '__________________________________________________________'
-	@docker build -t dataeng-dibimbing/spark -f ./docker/Dockerfile.spark .
-	@echo '__________________________________________________________'
 	@docker build -t dataeng-dibimbing/airflow -f ./docker/Dockerfile.airflow .
-	@echo '__________________________________________________________'
-	@docker build -t dataeng-dibimbing/jupyter -f ./docker/Dockerfile.jupyter .
 	@echo '==========================================================='
 
 docker-build-arm:
@@ -25,11 +21,7 @@ docker-build-arm:
 	@echo '__________________________________________________________'
 	@docker network inspect dataeng-network >/dev/null 2>&1 || docker network create dataeng-network
 	@echo '__________________________________________________________'
-	@docker build -t dataeng-dibimbing/spark -f ./docker/Dockerfile.spark .
-	@echo '__________________________________________________________'
 	@docker build -t dataeng-dibimbing/airflow -f ./docker/Dockerfile.airflow-arm .
-	@echo '__________________________________________________________'
-	@docker build -t dataeng-dibimbing/jupyter -f ./docker/Dockerfile.jupyter .
 	@echo '==========================================================='
 
 

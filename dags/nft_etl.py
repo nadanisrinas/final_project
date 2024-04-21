@@ -1,11 +1,15 @@
 from datetime import datetime, timedelta
 from airflow import DAG
 from airflow.operators.python import PythonOperator
+import sys
+import os
+# from dotenv import load_dotenv
+
 import streamlit as st
 import http.client
 import json
 import pandas as pd
-
+import config
 # Define the default_args dictionary to specify the default parameters of the DAG
 default_args = {
     "depends_on_past": False,
@@ -22,6 +26,7 @@ dag = DAG(
 )
 
 def print_begin():
+    # load_dotenv()
     print("Begin ETL process")
 
 def run_python_script():
@@ -33,7 +38,7 @@ def run_python_script():
     })
     headers = {
     'Content-Type': 'application/json',
-        'Authorization': "Bearer ory_at_UAmzFEQbGw00uS2RhN-mP1zPe_VyY8KEWosxhxBEBGk.UUMF4be4c5CjEoxL935BlTsyhhphs9FJLw4Gv8Pw0Oc",
+        'Authorization': f"Bearer ory_at_t4Z7IRE2WrccGhR3lqqoLElGlN5IGmMehtzFXMkrJcY.PJlf92EVE7hk2LrD2taMYNk-E9fDAtEus4m9JXF_kPM",
     }
     conn.request("POST", "/graphql", payload, headers)
     res = conn.getresponse()
