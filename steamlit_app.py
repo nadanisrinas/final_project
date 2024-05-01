@@ -8,7 +8,8 @@ def display_metric():
     df = pd.DataFrame(result)
     st.title ("NFT Dashboard")
     st.header("Punk Evil Rabbit NFT")
-    st.metric("Count of Punk Evil Rabbit NFTS Bought",df)
+    for row in df.itertuples():
+        st.metric("Count of Punk Evil Rabbit NFTS Bought",row.count_nfts_bought)
 
 display_metric()
 
