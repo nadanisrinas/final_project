@@ -18,7 +18,8 @@ RUN pip install \
     lxml \
     requests \
     pandas \ 
-    streamlit \ 
-    psycopg2-binary
+    psycopg2-binary \
+    apache-airflow-providers-postgres \ 
+    streamlit
 
 COPY --chown=airflow:root ./dags /opt/airflow/dags

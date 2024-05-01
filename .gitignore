@@ -1,0 +1,23 @@
+# Airflow log files
+airflow/logs/
+
+# Airflow database
+airflow/airflow.db
+
+# Airflow metadata
+airflow/airflow.cfg
+airflow/airflow-webserver.pid
+airflow/airflow-scheduler.pid
+airflow/airflow-webserver.pid
+airflow/airflow-webserver.pid
+
+# Ignore temporary files
+*.pyc
+*.pyo
+*.bak
+
+# Ignore environment-specific files
+.env
+
+# Ignore Python virtual environment files
+venv/
