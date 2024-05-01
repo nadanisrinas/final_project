@@ -488,3 +488,24 @@
 [2024-05-01T18:53:40.025+0000] {logging_mixin.py:188} INFO - [2024-05-01T18:53:40.025+0000] {dag.py:3047} INFO - Sync 1 DAGs
 [2024-05-01T18:53:40.040+0000] {logging_mixin.py:188} INFO - [2024-05-01T18:53:40.040+0000] {dag.py:3834} INFO - Setting next_dagrun for daily_nft_etl to 2024-05-01 00:00:00+00:00, run_after=2024-05-02 00:00:00+00:00
 [2024-05-01T18:53:40.053+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/daily_nft_etl.py took 0.501 seconds
+[2024-05-01T18:54:10.594+0000] {processor.py:161} INFO - Started process (PID=14774) to work on /opt/airflow/dags/daily_nft_etl.py
+[2024-05-01T18:54:10.598+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/daily_nft_etl.py for tasks to queue
+[2024-05-01T18:54:10.603+0000] {logging_mixin.py:188} INFO - [2024-05-01T18:54:10.602+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/daily_nft_etl.py
+[2024-05-01T18:54:11.074+0000] {processor.py:840} INFO - DAG(s) 'daily_nft_etl' retrieved from /opt/airflow/dags/daily_nft_etl.py
+[2024-05-01T18:54:11.096+0000] {logging_mixin.py:188} INFO - [2024-05-01T18:54:11.096+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-01T18:54:11.113+0000] {logging_mixin.py:188} INFO - [2024-05-01T18:54:11.113+0000] {dag.py:3834} INFO - Setting next_dagrun for daily_nft_etl to 2024-05-01 00:00:00+00:00, run_after=2024-05-02 00:00:00+00:00
+[2024-05-01T18:54:11.126+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/daily_nft_etl.py took 0.541 seconds
+[2024-05-01T18:54:41.725+0000] {processor.py:161} INFO - Started process (PID=14800) to work on /opt/airflow/dags/daily_nft_etl.py
+[2024-05-01T18:54:41.733+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/daily_nft_etl.py for tasks to queue
+[2024-05-01T18:54:41.737+0000] {logging_mixin.py:188} INFO - [2024-05-01T18:54:41.736+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/daily_nft_etl.py
+[2024-05-01T18:54:42.325+0000] {processor.py:840} INFO - DAG(s) 'daily_nft_etl' retrieved from /opt/airflow/dags/daily_nft_etl.py
+[2024-05-01T18:54:42.364+0000] {logging_mixin.py:188} INFO - [2024-05-01T18:54:42.363+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-01T18:54:42.384+0000] {logging_mixin.py:188} INFO - [2024-05-01T18:54:42.384+0000] {dag.py:3834} INFO - Setting next_dagrun for daily_nft_etl to 2024-05-01 00:00:00+00:00, run_after=2024-05-02 00:00:00+00:00
+[2024-05-01T18:54:42.411+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/daily_nft_etl.py took 0.706 seconds
+[2024-05-01T18:55:12.935+0000] {processor.py:161} INFO - Started process (PID=14826) to work on /opt/airflow/dags/daily_nft_etl.py
+[2024-05-01T18:55:12.939+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/daily_nft_etl.py for tasks to queue
+[2024-05-01T18:55:12.941+0000] {logging_mixin.py:188} INFO - [2024-05-01T18:55:12.941+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/daily_nft_etl.py
+[2024-05-01T18:55:13.423+0000] {processor.py:840} INFO - DAG(s) 'daily_nft_etl' retrieved from /opt/airflow/dags/daily_nft_etl.py
+[2024-05-01T18:55:13.453+0000] {logging_mixin.py:188} INFO - [2024-05-01T18:55:13.453+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-01T18:55:13.467+0000] {logging_mixin.py:188} INFO - [2024-05-01T18:55:13.467+0000] {dag.py:3834} INFO - Setting next_dagrun for daily_nft_etl to 2024-05-01 00:00:00+00:00, run_after=2024-05-02 00:00:00+00:00
+[2024-05-01T18:55:13.482+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/daily_nft_etl.py took 0.557 seconds

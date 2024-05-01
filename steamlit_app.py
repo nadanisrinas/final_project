@@ -2,10 +2,10 @@ import streamlit as st
 import pandas as pd
 import json
 
-conn = st.connection("postgresql", type="sql")
+# conn = st.connection("postgresql", type="sql")
 def display_metric(): 
-    result = conn.query('SELECT * FROM metric_table LIMIT 1;', ttl="10m")
-    df = pd.DataFrame(result)
+    # result = conn.query('SELECT * FROM metric_table LIMIT 1;', ttl="10m")
+    # df = pd.DataFrame(result)
     st.title ("NFT Dashboard")
     st.header("Punk Evil Rabbit NFT")
     st.metric("Count of Punk Evil Rabbit NFTS Bought",df)
