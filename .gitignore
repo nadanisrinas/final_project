@@ -21,3 +21,6 @@ airflow/airflow-webserver.pid
 
 # Ignore Python virtual environment files
 venv/
+
+# Streamlit specific files
+.streamlit/secrets.toml
